@@ -50,8 +50,9 @@ while exit == False:
         print(('     ФАКТ.КТ:'), result)
         print(' ')
         print(' ')
-        print(' ')
-if input() == 'q':
-        exit = True
+        print('Нажмите  клавишу "Enter"что бы продолжить или \
+введите "q" если хотите завершить работу')
+        if input() == 'q':
+                exit = True
 
         
