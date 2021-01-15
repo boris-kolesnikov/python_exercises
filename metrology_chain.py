@@ -16,7 +16,9 @@ while exit == False:
         toleranc_percente=float(input())
         if toleranc_percente >= 1: print('Отлично')
         if toleranc_percente <= 0:
+                
                 toleranc_percente_eqals=(100*tolerance/nominal_value)
+                
                 print(('Это будет ±'), toleranc_percente_eqals, ('%'))
                 
         print('Укажите наименование средства измерений [    ]')
@@ -28,7 +30,9 @@ while exit == False:
         deflection_percente=float(input())
         if deflection_percente >= 1: print('Отлично')
         if deflection_percente <= 0:
+                
                 deflection_percente_eqals=(100*deflection/nominal_value)
+                
                 print(('Это будет ±'), deflection_percente_eqals, ('%'))
                 
         print('Укажите требуемый коэффициен точности')
